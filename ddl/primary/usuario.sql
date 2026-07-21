@@ -1,2 +1,2 @@
--- Chave primaria da tabela usuario.
+-- Chave primaria de usuario.
 alter table usuario add constraint pk_usuario primary key (id);
