@@ -7,6 +7,8 @@ create table lancamento (
     data_competencia   date          not null,
     data_vencimento    date,
     data_pagamento     date,
+    data_inicio        date,
+    data_fim           date,
     status             varchar(15),
     carteira_id        bigint        not null,
     categoria_id       bigint        not null,
