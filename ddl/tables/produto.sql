@@ -7,6 +7,8 @@ create table produto (
     unidade_medida_padrao_id bigint,
     codigo_barras            varchar(60),
     ativo                    boolean      not null default true,
+    estoque_minimo           numeric(12, 3) not null default 0,
+    estoque_atual            numeric(12, 3) not null default 0,
     criado_em      timestamptz,
     criado_por     varchar(100),
     atualizado_em  timestamptz,
