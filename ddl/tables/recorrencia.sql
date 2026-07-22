@@ -8,7 +8,7 @@ create table recorrencia (
     categoria_id       bigint        not null,
     forma_pagamento_id bigint,
     frequencia         varchar(10)   not null,
-    dia_vencimento     smallint,
+    dia_vencimento     integer,
     data_inicio        date          not null,
     data_fim           date,
     ativa              boolean       not null default true,
